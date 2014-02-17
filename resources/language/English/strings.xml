@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <!-- Plugin name -->
+  <string id="30000">service.fritzbox-callmonitor</string>
+  <string id="30001">FritzBox!-service-settings</string>
+  <string id="32002">IP-address FritzBox!</string>
+  <string id="32003">Display message in sec.</string>
+  <string id="32004">Pause on incomming call</string>
+  <string id="32101">Call from %s</string>
+  <string id="32102">Making call to %s</string>
+  <string id="32103">Connected to %s</string>
+  <string id="32104">Called for %d minutes</string>
+</strings>

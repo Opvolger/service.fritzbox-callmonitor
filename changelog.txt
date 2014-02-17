@@ -1,0 +1,8 @@
+Version 0.3
+* fixes + rename services
+
+Version 0.2
+* Timeout on socket
+
+Version 0.1
+* Initial version

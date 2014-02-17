@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32001">
+        <setting label="32002" type="text" id="ip" default="192.168.2.1"/>
+        <setting label="32003" type="slider" id="displaytime" default="10" range="0,100"/>
+        <setting label="32004" type="bool" id="pauseplaying" default="false"/>
+    </category>
+</settings>
