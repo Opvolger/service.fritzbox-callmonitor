@@ -44,15 +44,15 @@ try:
                             player.pause()
                 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,info, displaytimeint, __icon__))
             elif dataitems[1] == 'CALL':
-                xbmc.log('FritzBox!-CALL: ' + data) # 14.02.14 23:54:40;CALL;0;1;0267894561;0612345678;SIP0;
+                #xbmc.log('FritzBox!-CALL: ' + data) # 14.02.14 23:54:40;CALL;0;1;0267894561;0612345678;SIP0;
                 info = __language__(32102)%(dataitems[5])
                 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,info, displaytimeint, __icon__))
             elif dataitems[1] == 'CONNECT':
-                xbmc.log('FritzBox!-CONNECT: ' + data) # 15.02.14 00:34:14;CONNECT;0;1;0612345678;
+                #xbmc.log('FritzBox!-CONNECT: ' + data) # 15.02.14 00:34:14;CONNECT;0;1;0612345678;
                 info = __language__(32103)%(dataitems[4])
                 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,info, displaytimeint, __icon__))
             elif dataitems[1] == 'DISCONNECT':
-                xbmc.log('FritzBox!-DISCONNECT: ' + data) # 15.02.14 00:34:27;DISCONNECT;0;13;
+                #xbmc.log('FritzBox!-DISCONNECT: ' + data) # 15.02.14 00:34:27;DISCONNECT;0;13;
                 info = __language__(32104)%(int(int(dataitems[3])/60))
                 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,info, displaytimeint, __icon__))
             else:
