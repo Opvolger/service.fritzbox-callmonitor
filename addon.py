@@ -5,7 +5,6 @@
     Made by Bas Magre (Opvolger)
     
 '''
-from xbmcswift2 import Plugin
 import xbmc, xbmcaddon
 import os, time, errno
 import socket, select
