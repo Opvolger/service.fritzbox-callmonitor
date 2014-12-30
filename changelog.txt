@@ -1,3 +1,6 @@
+Version 0.4
+* fixes for Helix
+
 Version 0.3
 * fixes + rename services
 
